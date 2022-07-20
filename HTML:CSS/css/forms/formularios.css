@@ -1,0 +1,62 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px ;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.input[type="password"] {
+    color: rgb(14, 4, 19);
+}
+
+.inputM {
+    border: none;
+    border-bottom: 1px solid rgb(255, 217, 127);
+    outline: none;
+    padding: 5px 5px;
+    color: coral;
+}
+
+.inputM:focus {
+    border-bottom: 1px solid black;
+}
+
+.inputM::placeholder {
+    color:blueviolet;
+}
+
+.inputB {
+    background-color: rgb(42, 18, 53);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: azure;
+    box-shadow: 0 0 10px rgb(27, 7, 7);
+}
+
+.inputB::placeholder {
+    color:rgb(238, 232, 232);
+}
+
+.inputS {
+    padding: 10px;
+    border: none;
+    background-color: rgb(196, 191, 191);
+    border-radius: 8px;
+    margin-top: 10px;
+    background-image: url(../img/imgD.jpg);
+    background-repeat: no-repeat;
+    background-position: 1px;
+}
+
+textarea {
+    resize: horizontal;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+}
