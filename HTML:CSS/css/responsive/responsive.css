@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
+div.barraizq {
+    background-color: bisque;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+}
+
+div.barra {
+    padding: 5px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    div.barraizq {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
