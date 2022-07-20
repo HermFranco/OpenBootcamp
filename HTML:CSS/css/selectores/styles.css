@@ -1,0 +1,21 @@
+button {
+    color: black;
+    background-color: grey;
+    border-radius: 10px;
+    height: 50px;
+    padding: auto;
+    width: 100px;
+    
+}
+button::before{
+    content: "Pasa sobre mi";
+}
+button:hover{
+    color: aliceblue;
+    background-color: green;
+    border-radius: 10px;
+    padding: auto;
+}
+button:hover:before {
+    content: "Hecho";
+}
