@@ -1,0 +1,12 @@
+{
+    "name": "primer-proyecto",
+    "version": "1.0.0",
+    "description": "Este es el primer ejercicio del curso de Javascript de OpenBootCamp",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ramados7878",
+    "license": "MIT"
+  }
